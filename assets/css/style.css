@@ -27,3 +27,9 @@ img {
   width: 180px;
   height: 180px;
 }
+
+#generatedNum, #scoreBoard{
+  width: 100px;
+  height: 100px;
+  
+}

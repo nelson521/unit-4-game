@@ -30,14 +30,27 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-4 bg-danger"></div>
-      <div class="col-sm-4 bg-success"></div>
+      <div class="col-sm-4 bg-danger">
+        <span id="generatedNum"></span>
+      </div>
+      <div class="col-sm-4 bg-success">
+        <p>Wins:<span id="winNum">0</span></p>
+        <p>Loses:<span id="losesNum">0</span></p>
+      </div>
     </div>
     <div class="row bg-light">
-        <img class="col-sm-3" src="https://www.sccpre.cat/mypng/detail/200-2004024_gems-clipart-red-gem-diamond-png-color.png" alt="..." class="img-thumbnail">
-        <img class="col-sm-3" src="http://i0.wp.com/clipartportal.com/wp-content/uploads/2018/12/blue-gem-clipart-3.jpg" alt="..." class="img-thumbnail">
-        <img class="col-sm-3" src="https://www.seekpng.com/png/small/157-1577700_gems-clipart-purple-diamond-pink-diamond-clipart.png" alt="..." class="img-thumbnail">
-        <img class="col-sm-3" src="https://banner2.kisspng.com/20180803/xpl/kisspng-clip-art-emerald-gemstone-openclipart-desktop-wall-gems-clipart-green-2-640-x-637-dumielauxepices-n-5b64c59860f2a3.5940412815333308403971.jpg" alt="..." class="img-thumbnail">
+        <button class="col-sm-3 btn-img" value='num1'>
+          <img src="https://www.sccpre.cat/mypng/detail/200-2004024_gems-clipart-red-gem-diamond-png-color.png" alt="..." class="img-thumbnail">
+        </button> 
+        <button class="col-sm-3 btn-img" value="num2">
+          <img src="http://i0.wp.com/clipartportal.com/wp-content/uploads/2018/12/blue-gem-clipart-3.jpg" alt="..." class="img-thumbnail">
+        </button>  
+        <button class="col-sm-3 btn-img" value="num3">
+          <img src="https://www.seekpng.com/png/small/157-1577700_gems-clipart-purple-diamond-pink-diamond-clipart.png" alt="..." class="img-thumbnail">
+        </button>  
+        <button class="col-sm-3 btn-img" value="num4">
+          <img src="https://banner2.kisspng.com/20180803/xpl/kisspng-clip-art-emerald-gemstone-openclipart-desktop-wall-gems-clipart-green-2-640-x-637-dumielauxepices-n-5b64c59860f2a3.5940412815333308403971.jpg" alt="..." class="img-thumbnail">
+        </button>  
     </div>
     <div class="row">
       <div class="col-sm-3 bg-light">
@@ -47,13 +60,13 @@
 
     <div class="row">
       <div class="col-sm-4 bg-info">
-        <p>0</p>
+        <span id="totalScore">0</span>
       </div>
     </div>
 
   </div>
 
-  <script src="/assets/javascript/game.js"></script>
+  <script src="./assets/javascript/game.js"></script>
 </body>
 
 </html>
